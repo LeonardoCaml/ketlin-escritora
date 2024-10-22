@@ -87,7 +87,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="sm:my-5 mb-10"
           >
-            <Image src={borboleta} className="lg:w-72 md:w-60 w-56 mb-4 shadow-lg" />
+            <Image src={borboleta} alt="livro" className="lg:w-72 md:w-60 w-56 mb-4 shadow-lg" />
             <p className="sm:w-72 w-56 sm:text-xl text-base font-poppins text-center sm:mb-5 mb-10">
               A borboleta que aprendeu a voar sozinha
             </p>
@@ -98,7 +98,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="sm:my-5 my-10"
           >
-            <Image src={historia} className="lg:w-72 md:w-60 w-56 mb-4 shadow-lg" />
+            <Image src={historia} alt="livro" className="lg:w-72 md:w-60 w-56 mb-4 shadow-lg" />
             <p className="sm:w-72 w-56 sm:text-xl text-base font-poppins text-center sm:mb-5 mb-10">
               A historia da mãe que descobriu a sua gravidez
             </p>
