@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <div className="bg-orange-100 h-screen w-full flex flex-col items-center justify-center">
-        <h1 className="text-center lg:text-7xl text-4xl lg:mb-20 mb-10 font-playfair">
+        <h1 className="text-center lg:text-7xl text-2xl lg:mb-20 mb-10 font-playfair">
           Olá, sou Keltin Tainara<br></br>e sou escritora.
         </h1>
         <h1 className="lg:text-xl text-xs font-poppins">
@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             Uma história de superação
           </h1>
-          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
+          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
             natureza com meus pais e meu irmão em Estrela, no interior do Rio
             Grande do Sul. Eu era feliz e sabia.
@@ -46,7 +46,7 @@ export default function Home() {
 
       <div className="bg-orange-100 w-full sm:flex items-center justify-between">
         <div className="h-screen w-full sm:pl-24 flex flex-col sm:items-start items-center justify-center gap-16">
-          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
+          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-4/5">
             A volta por cima
           </h1>
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
@@ -121,10 +121,10 @@ export default function Home() {
           </h1>
         </div>
         <div>
-          <p className="sm:text-3xl text-lg sm:mb-5 text-center font-poppins">
+          <p className="sm:text-2xl text-base sm:mb-5 text-center font-poppins">
             (51) 99479-5436
           </p>
-          <p className="sm:text-3xl text-lg sm:mb-5 text-center font-poppins">
+          <p className="sm:text-2xl text-base sm:mb-5 text-center font-poppins">
             exemplo@gmail.com.br
           </p>
         </div>
