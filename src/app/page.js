@@ -17,10 +17,10 @@ export default function Home() {
 
       <div className="bg-orange-200 w-full sm:flex flex-row-reverse items-center justify-between">
         <div className="h-screen w-full sm:pl-24 flex flex-col sm:items-start items-center justify-center gap-16">
-          <h1 className="font-playfair lg:text-7xl text-4xl sm:text-start text-center lg:w-[560px] w-96">
+          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             Uma história de superação
           </h1>
-          <p className="font-poppins lg:text-xl text-xs sm:text-start text-center sm:w-[640px] w-96">
+          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
             natureza com meus pais e meu irmão em Estrela, no interior do Rio
             Grande do Sul. Eu era feliz e sabia.
@@ -46,10 +46,10 @@ export default function Home() {
 
       <div className="bg-orange-100 w-full sm:flex items-center justify-between">
         <div className="h-screen w-full sm:pl-24 flex flex-col sm:items-start items-center justify-center gap-16">
-          <h1 className="font-playfair lg:text-7xl text-4xl sm:text-start text-center lg:w-[560px] w-96">
+          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             A volta por cima
           </h1>
-          <p className="font-poppins lg:text-xl text-xs sm:text-start text-center sm:w-[640px] w-96">
+          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
             Meu maior sonho era me formar e escrever um e-book, mas não sabia
             sobre o quê. Uma noite sonhei com o nome 'A Borboleta que Aprendeu a
             Voar Sozinha', escrevi num guardanapo ao acordar no meio da
@@ -76,7 +76,7 @@ export default function Home() {
 
       <div className="bg-orange-100 sm:h-screen w-full sm:flex flex flex-col items-center justify-evenly">
         <div>
-          <h1 className="font-playfair sm:text-7xl text-3xl my-10">
+          <h1 className="font-playfair sm:text-5xl text-2xl my-10">
             Amostras do Meu Trabalho
           </h1>
         </div>
@@ -85,14 +85,14 @@ export default function Home() {
             href="https://www.amazon.com.br/borboleta-que-aprendeu-voar-sozinha-ebook/dp/B0B7CFLGB2"
             target="_blank"
             rel="noopener noreferrer"
-            className="sm:my-5 mb-10"
+            className="sm:my-5 mb-10 flex flex-col items-center"
           >
             <Image
               src={borboleta}
               alt=""
-              className="lg:w-72 md:w-60 w-56 mb-4 shadow-lg"
+              className="lg:w-60 md:w-60 w-40 mb-4 shadow-lg"
             />
-            <p className="sm:w-72 w-56 sm:text-xl text-base font-poppins text-center sm:mb-5 mb-10">
+            <p className="sm:w-72 w-40 sm:text-xl text-base font-poppins text-center sm:mb-5 mb-10">
               A borboleta que aprendeu a voar sozinha
             </p>
           </a>
@@ -100,14 +100,14 @@ export default function Home() {
             href="https://www.amazon.com.br/hist%C3%B3ria-m%C3%A3e-que-descobriu-gravidez-ebook/dp/B0CTKZJR7D"
             target="_blank"
             rel="noopener noreferrer"
-            className="sm:my-5 my-10"
+            className="sm:my-5 mb-10 flex flex-col items-center"
           >
             <Image
               src={historia}
               alt=""
-              className="lg:w-72 md:w-60 w-56 mb-4 shadow-lg"
+              className="lg:w-60 md:w-60 w-40 mb-4 shadow-lg"
             />
-            <p className="sm:w-72 w-56 sm:text-xl text-base font-poppins text-center sm:mb-5 mb-10">
+            <p className="sm:w-72 w-40 sm:text-xl text-base font-poppins text-center sm:mb-5 mb-10">
               A historia da mãe que descobriu a sua gravidez
             </p>
           </a>
