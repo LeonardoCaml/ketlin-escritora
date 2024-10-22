@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             Uma história de superação
           </h1>
-          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
+          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
             natureza com meus pais e meu irmão em Estrela, no interior do Rio
             Grande do Sul. Eu era feliz e sabia.
@@ -46,10 +46,10 @@ export default function Home() {
 
       <div className="bg-orange-100 w-full sm:flex items-center justify-between">
         <div className="h-screen w-full sm:pl-24 flex flex-col sm:items-start items-center justify-center gap-16">
-          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-4/5">
+          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             A volta por cima
           </h1>
-          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
+          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Meu maior sonho era me formar e escrever um e-book, mas não sabia
             sobre o quê. Uma noite sonhei com o nome 'A Borboleta que Aprendeu a
             Voar Sozinha', escrevi num guardanapo ao acordar no meio da
