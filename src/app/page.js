@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             Uma história de superação
           </h1>
-          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-96">
+          <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
             natureza com meus pais e meu irmão em Estrela, no interior do Rio
             Grande do Sul. Eu era feliz e sabia.
