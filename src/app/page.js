@@ -93,9 +93,14 @@ export default function Home() {
 
       <div className="bg-orange-100 sm:h-screen w-full sm:flex flex flex-col items-center justify-evenly">
         <div>
-          <h1 className="font-playfair sm:text-5xl text-2xl my-10">
+          <h1 className="font-playfair sm:text-7xl text-2xl my-10">
             Amostras do Meu Trabalho
           </h1>
+          <Image
+            src={reto}
+            alt=""
+            className="w-[24rem] absolute -translate-y-14 translate-x-96 ml-32"
+          />
         </div>
         <div className="md:flex sm:flex my-10 sm:gap-32 gap-24">
           <a
@@ -136,6 +141,11 @@ export default function Home() {
           <h1 className="sm:text-7xl text-4xl mt-14 sm:w-[680px] w-80 text-center font-playfair">
             Eu adoraria falar com você
           </h1>
+          <Image
+            src={circular}
+            alt=""
+            className="w-40 scale-125 absolute -translate-y-16 translate-x-80 -rotate-2 mb-3 ml-5"
+          />
         </div>
         <div>
           <p className="sm:text-2xl text-base sm:mb-5 text-center font-poppins">
