@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import borboleta from "./image/borboleta.jpg";
 import historia from "./image/historia.jpg";
+import reto from "./image/pincelReto.png";
 
 export default function Home() {
   return (
@@ -10,6 +11,11 @@ export default function Home() {
         <h1 className="text-center lg:text-7xl text-2xl lg:mb-20 mb-10 font-playfair">
           Olá, sou Keltin Tainara<br></br>e sou escritora.
         </h1>
+        <Image
+          src={reto}
+          alt=""
+          className="w-96 absolute translate-y-8 translate-x-20"
+        />
         <h1 className="lg:text-xl text-xs font-poppins">
           Me deixe contar um pouco da minha história
         </h1>
@@ -20,6 +26,11 @@ export default function Home() {
           <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
             Uma história de superação
           </h1>
+          <Image
+            src={reto}
+            alt=""
+            className="w-64 absolute -translate-y-32 -translate-x-5"
+          />
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
             natureza com meus pais e meu irmão em Estrela, no interior do Rio
