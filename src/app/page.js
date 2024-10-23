@@ -30,7 +30,7 @@ export default function Home() {
           <Image
             src={reto}
             alt=""
-            className="lg:w-64 absolute lg:-translate-y-32 lg:-translate-x-5 -translate-y-28 translate-x-20 w-32 mb-2"
+            className="lg:w-64 absolute lg:-translate-y-32 lg:-translate-x-5 -translate-y-28 translate-x-20 w-32 lg:mt-4 mb-2"
           />
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
