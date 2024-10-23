@@ -3,6 +3,7 @@ import Image from "next/image";
 import borboleta from "./image/borboleta.jpg";
 import historia from "./image/historia.jpg";
 import reto from "./image/pincelReto.png";
+import circular from "./image/pincelCicular.png";
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
           <Image
             src={reto}
             alt=""
-            className="w-64 absolute -translate-y-32 -translate-x-5"
+            className="w-64 absolute -translate-y-32 -translate-x-5 mt-3"
           />
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
@@ -57,9 +58,14 @@ export default function Home() {
 
       <div className="bg-orange-100 w-full sm:flex items-center justify-between">
         <div className="h-screen w-full sm:pl-24 flex flex-col sm:items-start items-center justify-center gap-16">
-          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96">
+          <h1 className="font-playfair lg:text-5xl text-2xl sm:text-start text-center lg:w-[560px] w-96 z-10">
             A volta por cima
           </h1>
+          <Image
+            src={circular}
+            alt=""
+            className="w-36 absolute -translate-y-48 translate-x-56 rotate-180 mb-3 ml-1 z-0"
+          />
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Meu maior sonho era me formar e escrever um e-book, mas não sabia
             sobre o quê. Uma noite sonhei com o nome 'A Borboleta que Aprendeu a
