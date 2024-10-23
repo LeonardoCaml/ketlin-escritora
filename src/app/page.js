@@ -15,7 +15,7 @@ export default function Home() {
         <Image
           src={reto}
           alt=""
-          className="w-96 absolute translate-y-8 translate-x-20"
+          className="lg:w-96 absolute lg:translate-y-8 lg:translate-x-20 w-28 translate-x-7 translate-y-1"
         />
         <h1 className="lg:text-xl text-xs font-poppins">
           Me deixe contar um pouco da minha história
@@ -30,7 +30,7 @@ export default function Home() {
           <Image
             src={reto}
             alt=""
-            className="w-64 absolute -translate-y-32 -translate-x-5 mt-3"
+            className="lg:w-64 absolute lg:-translate-y-32 lg:-translate-x-5 -translate-y-28 translate-x-20 w-32 mb-2"
           />
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Tive a sorte de viver uma infância tranquila, cercada de mato e de
@@ -64,7 +64,7 @@ export default function Home() {
           <Image
             src={circular}
             alt=""
-            className="w-36 absolute -translate-y-48 translate-x-56 rotate-180 mb-3 ml-1 z-0"
+            className="lg:w-36 w-16 lg:scale-100 scale-110 absolute lg:-translate-y-48 -translate-y-36 lg:translate-x-56 translate-x-16 rotate-180 lg:mb-3 lg:ml-1 z-0"
           />
           <p className="font-poppins lg:text-base text-xs sm:text-start text-center sm:w-[640px] w-4/5">
             Meu maior sonho era me formar e escrever um e-book, mas não sabia
@@ -99,7 +99,7 @@ export default function Home() {
           <Image
             src={reto}
             alt=""
-            className="w-[24rem] absolute -translate-y-14 translate-x-96 ml-32"
+            className="lg:w-[24rem] w-32 absolute lg:-translate-y-14 -translate-y-12 lg:translate-x-96 translate-x-40 lg:ml-32 ml-2"
           />
         </div>
         <div className="md:flex sm:flex my-10 sm:gap-32 gap-24">
@@ -138,13 +138,13 @@ export default function Home() {
 
       <div className="bg-orange-200 h-screen w-full flex flex-col items-center justify-evenly">
         <div>
-          <h1 className="sm:text-7xl text-4xl mt-14 sm:w-[680px] w-80 text-center font-playfair">
+          <h1 className="sm:text-7xl text-4xl mt-14 sm:w-[680px] w-80 text-center font-playfair z-10">
             Eu adoraria falar com você
           </h1>
           <Image
             src={circular}
             alt=""
-            className="w-40 scale-125 absolute -translate-y-16 translate-x-80 -rotate-2 mb-3 ml-5"
+            className="lg:w-40 w-24 lg:scale-125 absolute lg:-translate-y-16 -translate-y-10 lg:translate-x-80 translate-x-36 lg:-rotate-2 lg:mb-3 lg:ml-5 ml-2 mt-1 z-0"
           />
         </div>
         <div>
